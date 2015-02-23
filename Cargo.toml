@@ -1,0 +1,5 @@
+[package]
+
+name = "theseus"
+version = "0.0.1"
+authors = ["Alan Fung-Schwarz <alan.jcfs@gmail.com>"]
