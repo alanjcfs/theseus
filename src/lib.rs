@@ -15,6 +15,15 @@ pub fn add_two(a: i32) -> i32 {
     a + 2
 }
 
+struct Cell {
+    row: i32,
+    column: i32,
+    north: Box<Option<Cell>>,
+    south: Box<Option<Cell>>,
+    east: Box<Option<Cell>>,
+    west: Box<Option<Cell>>
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
